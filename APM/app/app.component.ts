@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Component } from '@angular/core'; 
 @Component({
     selector: 'pm-app',
@@ -14,14 +13,3 @@ import { Component } from '@angular/core';
 export class AppComponent {
     pageTitle: string = "Products";
 }
-=======
-import { Component } from '@angular/core';
-
-@Component({
-    selector: 'pm-app',
-    template: `
-        <h1>Angular2: Getting Started</h1>
-    `
-})
-export class AppComponent { }
->>>>>>> ddcc5cd563fe51aac52e4097eb02c92e0a1c34c1
