@@ -2,9 +2,13 @@
 {
     "files.exclude": {
         "**/.git": true,
+<<<<<<< HEAD
         "**/.DS_Store": true,
         "**/app/**/*.js" : true,
         "**/*.map" : true
+=======
+        "**/.DS_Store": true
+>>>>>>> ddcc5cd563fe51aac52e4097eb02c92e0a1c34c1
     }, 
     // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange". If set to "afterDelay" you can configure the delay in "files.autoSaveDelay".
     "files.autoSave": "afterDelay"
