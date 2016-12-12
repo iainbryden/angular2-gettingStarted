@@ -1,0 +1,777 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@3.10.9
+3 info using node@v7.2.0
+4 silly mapToRegistry name @angular/common
+5 silly mapToRegistry scope (from package name) @angular
+6 verbose mapToRegistry no registry URL found in name for scope @angular
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry https://registry.npmjs.org/
+9 silly mapToRegistry data Result {
+9 silly mapToRegistry   raw: '@angular/common',
+9 silly mapToRegistry   scope: '@angular',
+9 silly mapToRegistry   escapedName: '@angular%2fcommon',
+9 silly mapToRegistry   name: '@angular/common',
+9 silly mapToRegistry   rawSpec: '',
+9 silly mapToRegistry   spec: 'latest',
+9 silly mapToRegistry   type: 'tag' }
+10 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+11 silly mapToRegistry name @angular/compiler
+12 silly mapToRegistry scope (from package name) @angular
+13 verbose mapToRegistry no registry URL found in name for scope @angular
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry data Result {
+16 silly mapToRegistry   raw: '@angular/compiler',
+16 silly mapToRegistry   scope: '@angular',
+16 silly mapToRegistry   escapedName: '@angular%2fcompiler',
+16 silly mapToRegistry   name: '@angular/compiler',
+16 silly mapToRegistry   rawSpec: '',
+16 silly mapToRegistry   spec: 'latest',
+16 silly mapToRegistry   type: 'tag' }
+17 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+18 silly mapToRegistry name @angular/core
+19 silly mapToRegistry scope (from package name) @angular
+20 verbose mapToRegistry no registry URL found in name for scope @angular
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: '@angular/core',
+23 silly mapToRegistry   scope: '@angular',
+23 silly mapToRegistry   escapedName: '@angular%2fcore',
+23 silly mapToRegistry   name: '@angular/core',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+25 silly mapToRegistry name @angular/forms
+26 silly mapToRegistry scope (from package name) @angular
+27 verbose mapToRegistry no registry URL found in name for scope @angular
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: '@angular/forms',
+30 silly mapToRegistry   scope: '@angular',
+30 silly mapToRegistry   escapedName: '@angular%2fforms',
+30 silly mapToRegistry   name: '@angular/forms',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+32 silly mapToRegistry name @angular/http
+33 silly mapToRegistry scope (from package name) @angular
+34 verbose mapToRegistry no registry URL found in name for scope @angular
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: '@angular/http',
+37 silly mapToRegistry   scope: '@angular',
+37 silly mapToRegistry   escapedName: '@angular%2fhttp',
+37 silly mapToRegistry   name: '@angular/http',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+39 silly mapToRegistry name @angular/platform-browser
+40 silly mapToRegistry scope (from package name) @angular
+41 verbose mapToRegistry no registry URL found in name for scope @angular
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: '@angular/platform-browser',
+44 silly mapToRegistry   scope: '@angular',
+44 silly mapToRegistry   escapedName: '@angular%2fplatform-browser',
+44 silly mapToRegistry   name: '@angular/platform-browser',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+46 silly mapToRegistry name @angular/platform-browser-dynamic
+47 silly mapToRegistry scope (from package name) @angular
+48 verbose mapToRegistry no registry URL found in name for scope @angular
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry data Result {
+51 silly mapToRegistry   raw: '@angular/platform-browser-dynamic',
+51 silly mapToRegistry   scope: '@angular',
+51 silly mapToRegistry   escapedName: '@angular%2fplatform-browser-dynamic',
+51 silly mapToRegistry   name: '@angular/platform-browser-dynamic',
+51 silly mapToRegistry   rawSpec: '',
+51 silly mapToRegistry   spec: 'latest',
+51 silly mapToRegistry   type: 'tag' }
+52 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+53 silly mapToRegistry name @angular/router
+54 silly mapToRegistry scope (from package name) @angular
+55 verbose mapToRegistry no registry URL found in name for scope @angular
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: '@angular/router',
+58 silly mapToRegistry   scope: '@angular',
+58 silly mapToRegistry   escapedName: '@angular%2frouter',
+58 silly mapToRegistry   name: '@angular/router',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+60 silly mapToRegistry name bootstrap
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'bootstrap',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'bootstrap',
+63 silly mapToRegistry   name: 'bootstrap',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+65 silly mapToRegistry name concurrently
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'concurrently',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   escapedName: 'concurrently',
+68 silly mapToRegistry   name: 'concurrently',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npmjs.org/concurrently
+70 silly mapToRegistry name core-js
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry data Result {
+73 silly mapToRegistry   raw: 'core-js',
+73 silly mapToRegistry   scope: null,
+73 silly mapToRegistry   escapedName: 'core-js',
+73 silly mapToRegistry   name: 'core-js',
+73 silly mapToRegistry   rawSpec: '',
+73 silly mapToRegistry   spec: 'latest',
+73 silly mapToRegistry   type: 'tag' }
+74 silly mapToRegistry uri https://registry.npmjs.org/core-js
+75 silly mapToRegistry name lite-server
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'lite-server',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   escapedName: 'lite-server',
+78 silly mapToRegistry   name: 'lite-server',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/lite-server
+80 silly mapToRegistry name reflect-metadata
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'reflect-metadata',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'reflect-metadata',
+83 silly mapToRegistry   name: 'reflect-metadata',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+85 silly mapToRegistry name rxjs
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'rxjs',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'rxjs',
+88 silly mapToRegistry   name: 'rxjs',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+90 silly mapToRegistry name systemjs
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'systemjs',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   escapedName: 'systemjs',
+93 silly mapToRegistry   name: 'systemjs',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+95 silly mapToRegistry name tslint
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: 'tslint',
+98 silly mapToRegistry   scope: null,
+98 silly mapToRegistry   escapedName: 'tslint',
+98 silly mapToRegistry   name: 'tslint',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag' }
+99 silly mapToRegistry uri https://registry.npmjs.org/tslint
+100 silly mapToRegistry name typescript
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry data Result {
+103 silly mapToRegistry   raw: 'typescript',
+103 silly mapToRegistry   scope: null,
+103 silly mapToRegistry   escapedName: 'typescript',
+103 silly mapToRegistry   name: 'typescript',
+103 silly mapToRegistry   rawSpec: '',
+103 silly mapToRegistry   spec: 'latest',
+103 silly mapToRegistry   type: 'tag' }
+104 silly mapToRegistry uri https://registry.npmjs.org/typescript
+105 silly mapToRegistry name typings
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'typings',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'typings',
+108 silly mapToRegistry   name: 'typings',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/typings
+110 silly mapToRegistry name zone.js
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'zone.js',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'zone.js',
+113 silly mapToRegistry   name: 'zone.js',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+115 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 10:04:06 AM
+118 verbose request id 1e3a2dbbc62b0094
+119 verbose etag "583622ab-91e3"
+120 http request GET https://registry.npmjs.org/@angular%2fcompiler
+121 verbose request uri https://registry.npmjs.org/@angular%2fforms
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 10:04:06 AM
+124 verbose etag "583622b3-6f22"
+125 http request GET https://registry.npmjs.org/@angular%2fforms
+126 verbose request uri https://registry.npmjs.org/@angular%2fcore
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 10:04:08 AM
+129 verbose etag "583622af-9080"
+130 http request GET https://registry.npmjs.org/@angular%2fcore
+131 verbose request uri https://registry.npmjs.org/@angular%2fcommon
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 10:04:08 AM
+134 verbose etag "583622a8-913a"
+135 http request GET https://registry.npmjs.org/@angular%2fcommon
+136 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 10:04:08 AM
+139 verbose etag "583622bb-b172"
+140 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+141 verbose request uri https://registry.npmjs.org/@angular%2fhttp
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 10:04:08 AM
+144 verbose etag "583622b4-9420"
+145 http request GET https://registry.npmjs.org/@angular%2fhttp
+146 verbose request uri https://registry.npmjs.org/@angular%2frouter
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 10:04:08 AM
+149 verbose etag "583622c5-107f1"
+150 http request GET https://registry.npmjs.org/@angular%2frouter
+151 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 10:04:08 AM
+154 verbose etag "583622b8-a124"
+155 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+156 verbose request uri https://registry.npmjs.org/reflect-metadata
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 10:04:08 AM
+159 verbose etag W/"581ec5a3-6346"
+160 verbose lastModified Sun, 06 Nov 2016 05:54:43 GMT
+161 http request GET https://registry.npmjs.org/reflect-metadata
+162 verbose request uri https://registry.npmjs.org/lite-server
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 10:04:08 AM
+165 verbose etag W/"58345f36-6c2b"
+166 verbose lastModified Tue, 22 Nov 2016 15:07:34 GMT
+167 http request GET https://registry.npmjs.org/lite-server
+168 verbose request uri https://registry.npmjs.org/bootstrap
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 10:04:08 AM
+171 verbose etag W/"58361607-b1f0"
+172 verbose lastModified Wed, 23 Nov 2016 22:19:51 GMT
+173 http request GET https://registry.npmjs.org/bootstrap
+174 verbose request uri https://registry.npmjs.org/concurrently
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 10:04:08 AM
+177 verbose etag W/"583c5dc5-6b6a"
+178 verbose lastModified Mon, 28 Nov 2016 16:39:33 GMT
+179 http request GET https://registry.npmjs.org/concurrently
+180 verbose request uri https://registry.npmjs.org/rxjs
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 10:04:08 AM
+183 verbose etag W/"583687e6-181ef"
+184 verbose lastModified Thu, 24 Nov 2016 06:25:42 GMT
+185 http request GET https://registry.npmjs.org/rxjs
+186 verbose request uri https://registry.npmjs.org/systemjs
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 10:04:08 AM
+189 verbose etag W/"583254c2-25620"
+190 verbose lastModified Mon, 21 Nov 2016 01:58:26 GMT
+191 http request GET https://registry.npmjs.org/systemjs
+192 verbose request uri https://registry.npmjs.org/core-js
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 10:04:08 AM
+195 verbose etag W/"5836635e-387dc"
+196 verbose lastModified Thu, 24 Nov 2016 03:49:50 GMT
+197 http request GET https://registry.npmjs.org/core-js
+198 verbose request uri https://registry.npmjs.org/tslint
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 10:04:08 AM
+201 verbose etag W/"5835cb88-33a1f"
+202 verbose lastModified Wed, 23 Nov 2016 17:02:00 GMT
+203 http request GET https://registry.npmjs.org/tslint
+204 verbose request uri https://registry.npmjs.org/zone.js
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 10:04:08 AM
+207 verbose etag W/"5836447c-184e4"
+208 verbose lastModified Thu, 24 Nov 2016 01:38:04 GMT
+209 http request GET https://registry.npmjs.org/zone.js
+210 verbose request uri https://registry.npmjs.org/typings
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 10:04:08 AM
+213 verbose etag W/"5837c34c-30349"
+214 verbose lastModified Fri, 25 Nov 2016 04:51:24 GMT
+215 http request GET https://registry.npmjs.org/typings
+216 verbose request uri https://registry.npmjs.org/typescript
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 10:04:08 AM
+219 verbose etag W/"583c77ed-10a062"
+220 verbose lastModified Mon, 28 Nov 2016 18:31:09 GMT
+221 http request GET https://registry.npmjs.org/typescript
+222 info retry will retry, error on last attempt: Error: socket hang up
+223 info retry will retry, error on last attempt: Error: socket hang up
+224 info retry will retry, error on last attempt: Error: socket hang up
+225 info retry will retry, error on last attempt: Error: socket hang up
+226 info retry will retry, error on last attempt: Error: socket hang up
+227 info retry will retry, error on last attempt: Error: socket hang up
+228 info retry will retry, error on last attempt: Error: socket hang up
+229 info retry will retry, error on last attempt: Error: socket hang up
+230 info retry will retry, error on last attempt: Error: socket hang up
+231 info retry will retry, error on last attempt: Error: socket hang up
+232 info retry will retry, error on last attempt: Error: socket hang up
+233 info retry will retry, error on last attempt: Error: socket hang up
+234 info retry will retry, error on last attempt: Error: socket hang up
+235 info retry will retry, error on last attempt: Error: socket hang up
+236 info retry will retry, error on last attempt: Error: socket hang up
+237 info retry will retry, error on last attempt: Error: socket hang up
+238 info retry will retry, error on last attempt: Error: socket hang up
+239 info retry will retry, error on last attempt: Error: socket hang up
+240 info retry will retry, error on last attempt: Error: socket hang up
+241 info attempt registry request try #2 at 10:04:18 AM
+242 verbose etag "583622b4-9420"
+243 http request GET https://registry.npmjs.org/@angular%2fhttp
+244 info attempt registry request try #2 at 10:04:18 AM
+245 verbose etag "583622a8-913a"
+246 http request GET https://registry.npmjs.org/@angular%2fcommon
+247 info attempt registry request try #2 at 10:04:18 AM
+248 verbose etag "583622af-9080"
+249 http request GET https://registry.npmjs.org/@angular%2fcore
+250 info attempt registry request try #2 at 10:04:18 AM
+251 verbose etag "583622b3-6f22"
+252 http request GET https://registry.npmjs.org/@angular%2fforms
+253 info attempt registry request try #2 at 10:04:18 AM
+254 verbose etag "583622bb-b172"
+255 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+256 info attempt registry request try #2 at 10:04:18 AM
+257 verbose etag "583622ab-91e3"
+258 http request GET https://registry.npmjs.org/@angular%2fcompiler
+259 info attempt registry request try #2 at 10:04:18 AM
+260 verbose etag W/"58361607-b1f0"
+261 verbose lastModified Wed, 23 Nov 2016 22:19:51 GMT
+262 http request GET https://registry.npmjs.org/bootstrap
+263 info attempt registry request try #2 at 10:04:18 AM
+264 verbose etag "583622b8-a124"
+265 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+266 info attempt registry request try #2 at 10:04:18 AM
+267 verbose etag W/"583687e6-181ef"
+268 verbose lastModified Thu, 24 Nov 2016 06:25:42 GMT
+269 http request GET https://registry.npmjs.org/rxjs
+270 info attempt registry request try #2 at 10:04:18 AM
+271 verbose etag W/"583254c2-25620"
+272 verbose lastModified Mon, 21 Nov 2016 01:58:26 GMT
+273 http request GET https://registry.npmjs.org/systemjs
+274 info attempt registry request try #2 at 10:04:18 AM
+275 verbose etag W/"5837c34c-30349"
+276 verbose lastModified Fri, 25 Nov 2016 04:51:24 GMT
+277 http request GET https://registry.npmjs.org/typings
+278 info attempt registry request try #2 at 10:04:18 AM
+279 verbose etag W/"583c5dc5-6b6a"
+280 verbose lastModified Mon, 28 Nov 2016 16:39:33 GMT
+281 http request GET https://registry.npmjs.org/concurrently
+282 info attempt registry request try #2 at 10:04:18 AM
+283 verbose etag W/"5835cb88-33a1f"
+284 verbose lastModified Wed, 23 Nov 2016 17:02:00 GMT
+285 http request GET https://registry.npmjs.org/tslint
+286 info attempt registry request try #2 at 10:04:18 AM
+287 verbose etag W/"581ec5a3-6346"
+288 verbose lastModified Sun, 06 Nov 2016 05:54:43 GMT
+289 http request GET https://registry.npmjs.org/reflect-metadata
+290 info attempt registry request try #2 at 10:04:18 AM
+291 verbose etag "583622c5-107f1"
+292 http request GET https://registry.npmjs.org/@angular%2frouter
+293 info attempt registry request try #2 at 10:04:18 AM
+294 verbose etag W/"58345f36-6c2b"
+295 verbose lastModified Tue, 22 Nov 2016 15:07:34 GMT
+296 http request GET https://registry.npmjs.org/lite-server
+297 info attempt registry request try #2 at 10:04:18 AM
+298 verbose etag W/"5836447c-184e4"
+299 verbose lastModified Thu, 24 Nov 2016 01:38:04 GMT
+300 http request GET https://registry.npmjs.org/zone.js
+301 info attempt registry request try #2 at 10:04:18 AM
+302 verbose etag W/"5836635e-387dc"
+303 verbose lastModified Thu, 24 Nov 2016 03:49:50 GMT
+304 http request GET https://registry.npmjs.org/core-js
+305 info attempt registry request try #2 at 10:04:18 AM
+306 verbose etag W/"583c77ed-10a062"
+307 verbose lastModified Mon, 28 Nov 2016 18:31:09 GMT
+308 http request GET https://registry.npmjs.org/typescript
+309 info retry will retry, error on last attempt: Error: socket hang up
+310 info retry will retry, error on last attempt: Error: socket hang up
+311 info retry will retry, error on last attempt: Error: socket hang up
+312 info retry will retry, error on last attempt: Error: socket hang up
+313 info retry will retry, error on last attempt: Error: socket hang up
+314 info retry will retry, error on last attempt: Error: socket hang up
+315 info retry will retry, error on last attempt: Error: socket hang up
+316 info retry will retry, error on last attempt: Error: socket hang up
+317 info retry will retry, error on last attempt: Error: socket hang up
+318 info retry will retry, error on last attempt: Error: socket hang up
+319 info retry will retry, error on last attempt: Error: socket hang up
+320 info retry will retry, error on last attempt: Error: socket hang up
+321 info retry will retry, error on last attempt: Error: socket hang up
+322 info retry will retry, error on last attempt: Error: socket hang up
+323 info retry will retry, error on last attempt: Error: socket hang up
+324 info retry will retry, error on last attempt: Error: socket hang up
+325 info retry will retry, error on last attempt: Error: socket hang up
+326 info retry will retry, error on last attempt: Error: socket hang up
+327 info retry will retry, error on last attempt: Error: socket hang up
+328 info attempt registry request try #3 at 10:05:19 AM
+329 verbose etag "583622b4-9420"
+330 http request GET https://registry.npmjs.org/@angular%2fhttp
+331 info attempt registry request try #3 at 10:05:19 AM
+332 verbose etag "583622a8-913a"
+333 http request GET https://registry.npmjs.org/@angular%2fcommon
+334 info attempt registry request try #3 at 10:05:19 AM
+335 verbose etag "583622b3-6f22"
+336 http request GET https://registry.npmjs.org/@angular%2fforms
+337 info attempt registry request try #3 at 10:05:19 AM
+338 verbose etag "583622af-9080"
+339 http request GET https://registry.npmjs.org/@angular%2fcore
+340 info attempt registry request try #3 at 10:05:19 AM
+341 verbose etag W/"5837c34c-30349"
+342 verbose lastModified Fri, 25 Nov 2016 04:51:24 GMT
+343 http request GET https://registry.npmjs.org/typings
+344 info attempt registry request try #3 at 10:05:19 AM
+345 verbose etag "583622bb-b172"
+346 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+347 info attempt registry request try #3 at 10:05:19 AM
+348 verbose etag "583622b8-a124"
+349 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+350 info attempt registry request try #3 at 10:05:19 AM
+351 verbose etag "583622ab-91e3"
+352 http request GET https://registry.npmjs.org/@angular%2fcompiler
+353 info attempt registry request try #3 at 10:05:19 AM
+354 verbose etag W/"583c5dc5-6b6a"
+355 verbose lastModified Mon, 28 Nov 2016 16:39:33 GMT
+356 http request GET https://registry.npmjs.org/concurrently
+357 info attempt registry request try #3 at 10:05:19 AM
+358 verbose etag W/"58345f36-6c2b"
+359 verbose lastModified Tue, 22 Nov 2016 15:07:34 GMT
+360 http request GET https://registry.npmjs.org/lite-server
+361 info attempt registry request try #3 at 10:05:19 AM
+362 verbose etag W/"58361607-b1f0"
+363 verbose lastModified Wed, 23 Nov 2016 22:19:51 GMT
+364 http request GET https://registry.npmjs.org/bootstrap
+365 info attempt registry request try #3 at 10:05:19 AM
+366 verbose etag W/"583687e6-181ef"
+367 verbose lastModified Thu, 24 Nov 2016 06:25:42 GMT
+368 http request GET https://registry.npmjs.org/rxjs
+369 info attempt registry request try #3 at 10:05:19 AM
+370 verbose etag W/"5835cb88-33a1f"
+371 verbose lastModified Wed, 23 Nov 2016 17:02:00 GMT
+372 http request GET https://registry.npmjs.org/tslint
+373 info attempt registry request try #3 at 10:05:19 AM
+374 verbose etag "583622c5-107f1"
+375 http request GET https://registry.npmjs.org/@angular%2frouter
+376 info attempt registry request try #3 at 10:05:19 AM
+377 verbose etag W/"5836447c-184e4"
+378 verbose lastModified Thu, 24 Nov 2016 01:38:04 GMT
+379 http request GET https://registry.npmjs.org/zone.js
+380 info attempt registry request try #3 at 10:05:19 AM
+381 verbose etag W/"583254c2-25620"
+382 verbose lastModified Mon, 21 Nov 2016 01:58:26 GMT
+383 http request GET https://registry.npmjs.org/systemjs
+384 info attempt registry request try #3 at 10:05:19 AM
+385 verbose etag W/"5836635e-387dc"
+386 verbose lastModified Thu, 24 Nov 2016 03:49:50 GMT
+387 http request GET https://registry.npmjs.org/core-js
+388 info attempt registry request try #3 at 10:05:19 AM
+389 verbose etag W/"583c77ed-10a062"
+390 verbose lastModified Mon, 28 Nov 2016 18:31:09 GMT
+391 http request GET https://registry.npmjs.org/typescript
+392 info attempt registry request try #3 at 10:05:19 AM
+393 verbose etag W/"581ec5a3-6346"
+394 verbose lastModified Sun, 06 Nov 2016 05:54:43 GMT
+395 http request GET https://registry.npmjs.org/reflect-metadata
+396 silly get cb [ 304, undefined ]
+397 verbose etag https://registry.npmjs.org/@angular%2fforms from cache
+398 verbose get saving @angular/forms to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fforms\.cache.json
+399 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+400 silly get cb [ 304, undefined ]
+401 verbose etag https://registry.npmjs.org/lite-server from cache
+402 verbose get saving lite-server to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\lite-server\.cache.json
+403 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+404 silly get cb [ 304, undefined ]
+405 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser from cache
+406 verbose get saving @angular/platform-browser to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fplatform-browser\.cache.json
+407 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+408 silly get cb [ 304, undefined ]
+409 verbose etag https://registry.npmjs.org/@angular%2fcommon from cache
+410 verbose get saving @angular/common to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcommon\.cache.json
+411 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+412 silly get cb [ 304, undefined ]
+413 verbose etag https://registry.npmjs.org/@angular%2fcore from cache
+414 verbose get saving @angular/core to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcore\.cache.json
+415 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+416 silly get cb [ 304, undefined ]
+417 verbose etag https://registry.npmjs.org/concurrently from cache
+418 verbose get saving concurrently to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\concurrently\.cache.json
+419 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+420 silly get cb [ 304, undefined ]
+421 verbose etag https://registry.npmjs.org/@angular%2fplatform-browser-dynamic from cache
+422 verbose get saving @angular/platform-browser-dynamic to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fplatform-browser-dynamic\.cache.json
+423 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+424 silly get cb [ 304, undefined ]
+425 verbose etag https://registry.npmjs.org/rxjs from cache
+426 verbose get saving rxjs to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\rxjs\.cache.json
+427 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+428 silly get cb [ 304, undefined ]
+429 verbose etag https://registry.npmjs.org/zone.js from cache
+430 verbose get saving zone.js to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\zone.js\.cache.json
+431 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+432 silly get cb [ 304, undefined ]
+433 verbose etag https://registry.npmjs.org/tslint from cache
+434 verbose get saving tslint to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\tslint\.cache.json
+435 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+436 silly get cb [ 304, undefined ]
+437 verbose etag https://registry.npmjs.org/typings from cache
+438 verbose get saving typings to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\typings\.cache.json
+439 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+440 silly get cb [ 304, undefined ]
+441 verbose etag https://registry.npmjs.org/@angular%2frouter from cache
+442 verbose get saving @angular/router to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252frouter\.cache.json
+443 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+444 silly get cb [ 304, undefined ]
+445 verbose etag https://registry.npmjs.org/reflect-metadata from cache
+446 verbose get saving reflect-metadata to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\reflect-metadata\.cache.json
+447 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+448 silly get cb [ 304, undefined ]
+449 verbose etag https://registry.npmjs.org/bootstrap from cache
+450 verbose get saving bootstrap to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+451 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+452 silly get cb [ 304, undefined ]
+453 verbose etag https://registry.npmjs.org/systemjs from cache
+454 verbose get saving systemjs to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\systemjs\.cache.json
+455 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+456 silly get cb [ 304, undefined ]
+457 verbose etag https://registry.npmjs.org/typescript from cache
+458 verbose get saving typescript to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\typescript\.cache.json
+459 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+460 silly get cb [ 304, undefined ]
+461 verbose etag https://registry.npmjs.org/@angular%2fcompiler from cache
+462 verbose get saving @angular/compiler to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcompiler\.cache.json
+463 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+464 silly get cb [ 304, undefined ]
+465 verbose etag https://registry.npmjs.org/@angular%2fhttp from cache
+466 verbose get saving @angular/http to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fhttp\.cache.json
+467 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+468 silly get cb [ 304, undefined ]
+469 verbose etag https://registry.npmjs.org/core-js from cache
+470 verbose get saving core-js to C:\Users\brydenia\AppData\Roaming\npm-cache\registry.npmjs.org\core-js\.cache.json
+471 verbose correctMkdir C:\Users\brydenia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+472 verbose outdated not updating @angular/common because it's currently at the maximum version that matches its specified semver range
+473 verbose outdated not updating @angular/compiler because it's currently at the maximum version that matches its specified semver range
+474 verbose outdated not updating @angular/core because it's currently at the maximum version that matches its specified semver range
+475 verbose outdated not updating @angular/forms because it's currently at the maximum version that matches its specified semver range
+476 verbose outdated not updating @angular/http because it's currently at the maximum version that matches its specified semver range
+477 verbose outdated not updating @angular/platform-browser because it's currently at the maximum version that matches its specified semver range
+478 verbose outdated not updating @angular/platform-browser-dynamic because it's currently at the maximum version that matches its specified semver range
+479 verbose outdated not updating @angular/router because it's currently at the maximum version that matches its specified semver range
+480 verbose outdated not updating concurrently because it's currently at the maximum version that matches its specified semver range
+481 verbose outdated not updating rxjs because it's currently at the maximum version that matches its specified semver range
+482 verbose outdated not updating systemjs because it's currently at the maximum version that matches its specified semver range
+483 verbose outdated not updating tslint because it's currently at the maximum version that matches its specified semver range
+484 verbose outdated not updating typings because it's currently at the maximum version that matches its specified semver range
+485 verbose outdated not updating zone.js because it's currently at the maximum version that matches its specified semver range
+486 info outdated updating [ { dep:
+486 info outdated      Node {
+486 info outdated        id: 372,
+486 info outdated        package: [Object],
+486 info outdated        path: 'C:\\Iain\\Workspace\\AngularStart\\Angular2-GettingStarted\\APM\\node_modules\\typescript',
+486 info outdated        realpath: 'C:\\Iain\\Workspace\\AngularStart\\Angular2-GettingStarted\\APM\\node_modules\\typescript',
+486 info outdated        parent: [Object],
+486 info outdated        isLink: false,
+486 info outdated        children: [],
+486 info outdated        error: null,
+486 info outdated        loaded: false,
+486 info outdated        requiredBy: [Object],
+486 info outdated        requires: [],
+486 info outdated        missingDeps: {},
+486 info outdated        missingDevDeps: {},
+486 info outdated        phantomChildren: {},
+486 info outdated        location: '/typescript',
+486 info outdated        userRequired: false,
+486 info outdated        existing: false,
+486 info outdated        isTop: false },
+486 info outdated     depname: 'typescript',
+486 info outdated     current: '2.0.10',
+486 info outdated     wanted: '2.1.1',
+486 info outdated     latest: '2.0.10',
+486 info outdated     req: '^2.0.2',
+486 info outdated     what: 'typescript@2.1.1' } ]
+487 silly loadCurrentTree Starting
+488 silly install loadCurrentTree
+489 silly install readLocalPackageData
+490 silly fetchPackageMetaData typescript@2.1.1
+491 silly fetchNamedPackageData typescript
+492 silly mapToRegistry name typescript
+493 silly mapToRegistry using default registry
+494 silly mapToRegistry registry https://registry.npmjs.org/
+495 silly mapToRegistry data Result {
+495 silly mapToRegistry   raw: 'typescript',
+495 silly mapToRegistry   scope: null,
+495 silly mapToRegistry   escapedName: 'typescript',
+495 silly mapToRegistry   name: 'typescript',
+495 silly mapToRegistry   rawSpec: '',
+495 silly mapToRegistry   spec: 'latest',
+495 silly mapToRegistry   type: 'tag' }
+496 silly mapToRegistry uri https://registry.npmjs.org/typescript
+497 verbose get https://registry.npmjs.org/typescript not expired, no request
+498 silly install normalizeTree
+499 silly loadCurrentTree Finishing
+500 silly loadIdealTree Starting
+501 silly install loadIdealTree
+502 silly cloneCurrentTree Starting
+503 silly install cloneCurrentTreeToIdealTree
+504 silly cloneCurrentTree Finishing
+505 silly loadShrinkwrap Starting
+506 silly install loadShrinkwrap
+507 silly loadShrinkwrap Finishing
+508 silly loadAllDepsIntoIdealTree Starting
+509 silly install loadAllDepsIntoIdealTree
+510 silly resolveWithNewModule typescript@2.1.1 checking installable status
+511 silly cache add args [ 'typescript@2.1.1', null ]
+512 verbose cache add spec typescript@2.1.1
+513 silly cache add parsed spec Result {
+513 silly cache add   raw: 'typescript@2.1.1',
+513 silly cache add   scope: null,
+513 silly cache add   escapedName: 'typescript',
+513 silly cache add   name: 'typescript',
+513 silly cache add   rawSpec: '2.1.1',
+513 silly cache add   spec: '2.1.1',
+513 silly cache add   type: 'version' }
+514 silly addNamed typescript@2.1.1
+515 verbose addNamed "2.1.1" is a plain semver version for typescript
+516 silly mapToRegistry name typescript
+517 silly mapToRegistry using default registry
+518 silly mapToRegistry registry https://registry.npmjs.org/
+519 silly mapToRegistry data Result {
+519 silly mapToRegistry   raw: 'typescript',
+519 silly mapToRegistry   scope: null,
+519 silly mapToRegistry   escapedName: 'typescript',
+519 silly mapToRegistry   name: 'typescript',
+519 silly mapToRegistry   rawSpec: '',
+519 silly mapToRegistry   spec: 'latest',
+519 silly mapToRegistry   type: 'tag' }
+520 silly mapToRegistry uri https://registry.npmjs.org/typescript
+521 verbose addNameVersion registry:https://registry.npmjs.org/typescript not in flight; fetching
+522 verbose get https://registry.npmjs.org/typescript not expired, no request
+523 silly mapToRegistry name typescript
+524 silly mapToRegistry using default registry
+525 silly mapToRegistry registry https://registry.npmjs.org/
+526 silly mapToRegistry data Result {
+526 silly mapToRegistry   raw: 'typescript',
+526 silly mapToRegistry   scope: null,
+526 silly mapToRegistry   escapedName: 'typescript',
+526 silly mapToRegistry   name: 'typescript',
+526 silly mapToRegistry   rawSpec: '',
+526 silly mapToRegistry   spec: 'latest',
+526 silly mapToRegistry   type: 'tag' }
+527 silly mapToRegistry uri https://registry.npmjs.org/typescript
+528 verbose addRemoteTarball https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz not in flight; adding
+529 verbose addRemoteTarball [ 'https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz',
+529 verbose addRemoteTarball   '41c2b64472f529331b2055c0424862b44ce58d42' ]
+530 info retry fetch attempt 1 at 10:05:26 AM
+531 info attempt registry request try #1 at 10:05:26 AM
+532 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+533 info retry will retry, error on last attempt: Error: socket hang up
+534 info attempt registry request try #2 at 10:05:39 AM
+535 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+536 info retry will retry, error on last attempt: Error: socket hang up
+537 info attempt registry request try #3 at 10:06:39 AM
+538 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+539 error fetch failed https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+540 warn retry will retry, error on last attempt: Error: socket hang up
+541 info retry fetch attempt 2 at 10:06:49 AM
+542 info attempt registry request try #1 at 10:06:49 AM
+543 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+544 info retry will retry, error on last attempt: Error: socket hang up
+545 info attempt registry request try #2 at 10:07:04 AM
+546 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+547 info retry will retry, error on last attempt: Error: socket hang up
+548 info attempt registry request try #3 at 10:08:04 AM
+549 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+550 error fetch failed https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+551 warn retry will retry, error on last attempt: Error: socket hang up
+552 info retry fetch attempt 3 at 10:09:04 AM
+553 info attempt registry request try #1 at 10:09:04 AM
+554 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+555 info retry will retry, error on last attempt: Error: socket hang up
+556 info attempt registry request try #2 at 10:09:14 AM
+557 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+558 info retry will retry, error on last attempt: Error: socket hang up
+559 info attempt registry request try #3 at 10:10:14 AM
+560 http fetch GET https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+561 error fetch failed https://registry.npmjs.org/typescript/-/typescript-2.1.1.tgz
+562 silly rollbackFailedOptional Starting
+563 silly rollbackFailedOptional Finishing
+564 silly runTopLevelLifecycles Finishing
+565 silly install printInstalled
+566 verbose stack Error: socket hang up
+566 verbose stack     at createHangUpError (_http_client.js:253:15)
+566 verbose stack     at TLSSocket.socketOnEnd (_http_client.js:345:23)
+566 verbose stack     at emitNone (events.js:91:20)
+566 verbose stack     at TLSSocket.emit (events.js:185:7)
+566 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+566 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+566 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+567 verbose cwd C:\Iain\Workspace\AngularStart\Angular2-GettingStarted\APM
+568 error Windows_NT 6.1.7601
+569 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+570 error node v7.2.0
+571 error npm  v3.10.9
+572 error code ECONNRESET
+573 error network socket hang up
+574 error network This is most likely not a problem with npm itself
+574 error network and is related to network connectivity.
+574 error network In most cases you are behind a proxy or have bad network settings.
+574 error network
+574 error network If you are behind a proxy, please make sure that the
+574 error network 'proxy' config is set properly.  See: 'npm help config'
+575 verbose exit [ 1, true ]

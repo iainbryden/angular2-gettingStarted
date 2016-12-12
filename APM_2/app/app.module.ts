@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent }  from './app.component';
 import { ProductListComponent }  from './products/product-list.component';
 import { ProductFilterPipe }  from './products/product-filter.pipe';
-import { IbStatus }  from './ib/ib.status.component';
 import { StarComponent }  from './shared/star.component';
 
 @NgModule({
@@ -16,9 +15,7 @@ import { StarComponent }  from './shared/star.component';
       AppComponent, 
       ProductListComponent,
       ProductFilterPipe,
-      StarComponent,
-      IbStatus
+      StarComponent
     ],
-  bootstrap: [ AppComponent, IbStatus ]
 })
 export class AppModule { }
