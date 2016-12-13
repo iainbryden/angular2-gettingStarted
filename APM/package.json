@@ -5,6 +5,7 @@
     "description": "Package for the Acme Product Management sample application",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+        "stop": "pkill --signal SIGINT myApp",
         "tsc": "tsc",
         "tsc:w": "tsc -w",
         "lint": "tslint ./app/**/*.ts -t verbose",
