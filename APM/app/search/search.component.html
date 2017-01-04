@@ -1,0 +1,63 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Search
+    </div>
+    <div class="panel-body">
+
+        <div class='row'>
+            <div class='col-md-12'>
+                <div class="input-group">
+                <input type="text" class="form-control" placeholder="{{placeholder}}" (keyup)="doSearch(searchInput.value)" #searchInput>
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" (click)="doSearch(searchInput.value)">Search</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class='table-responsive'>
+                <table class='table' *ngIf='results && results.length'>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Name</th>
+                            <th>Code</th>
+                            <th>Created</th>
+                            <th></th>
+                            <th>Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor='let product of results'>
+                            <td>
+                                <!--<img 
+                                *ngIf='showImage'
+                                    [src]='product.imageUrl' 
+                                    [title]='product.productName | uppercase'
+                                    [style.width.px]='imageWidth'
+                                    [style.margin.px]='imageMargin'
+                                >-->
+                            </td>
+                            <td>
+                                <a [routerLink]="['/product', product.productId]">
+                                    {{product.name}}
+                                </a>
+                            </td>
+                            <td>{{product.productCode | lowercase}}</td>
+                            <td>{{product.createdDate}}</td>
+                            <td>{{product.price | currency:'USD':true:'1.2-2'}}</td>
+                            <td>
+                                <ai-star 
+                                    [rating]='product.starRating'
+                                    (ratingClicked)='onRatingClicked($event)'
+                                ></ai-star>
+                            </td>
+                        </tr>                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "343.456.345.11",
+        "productCode": "GDN-0011",
+        "createdDate": "March 04, 2016",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "starRating": 3,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+    },
+    {
+        "id": 1,
+        "name": "545.222.878.15",
+        "productCode": "GDN-0012",
+        "createdDate": "April 16, 2016",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "starRating": 3.5,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+    },
+    {
+        "id": 1,
+        "name": "111.333.616.10",
+        "productCode": "GDN-0014",
+        "createdDate": "June 09, 2016",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "starRating": 4.2,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+    },
+    {
+        "id": 1,
+        "name": "231.444.545.04",
+        "productCode": "GDN-0015",
+        "createdDate": "September 19, 2016",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "starRating": 5.0,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+    }
+]

@@ -10,17 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
-var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var router_1 = require("@angular/router");
 var app_component_1 = require("./app.component");
-var welcome_component_1 = require("./home/welcome.component");
-var product_list_component_1 = require("./products/product-list.component");
-var product_detail_component_1 = require("./products/product-detail.component");
-var product_guard_service_1 = require("./products/product-guard.service");
-var product_filter_pipe_1 = require("./products/product-filter.pipe");
-var ib_status_component_1 = require("./ib/ib.status.component");
-var star_component_1 = require("./shared/star.component");
+//import { WelcomeComponent }  from './home/welcome.component';
+var hpeWelcome_component_1 = require("./hpeHome/hpeWelcome.component");
+var nav_component_1 = require("./nav/nav.component");
+var footer_component_1 = require("./footer/footer.component");
+var product_module_1 = require("./products/product.module");
+var search_module_1 = require("./search/search.module");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -30,30 +28,22 @@ AppModule = __decorate([
     core_1.NgModule({
         imports: [
             platform_browser_1.BrowserModule,
-            forms_1.FormsModule,
             http_1.HttpModule,
             router_1.RouterModule.forRoot([
-                { path: 'products', component: product_list_component_1.ProductListComponent },
-                { path: 'product/:id',
-                    canActivate: [product_guard_service_1.ProductDetailGuard],
-                    component: product_detail_component_1.ProductDetailComponent
-                },
-                { path: 'welcome', component: welcome_component_1.WelcomeComponent },
+                { path: 'welcome', component: hpeWelcome_component_1.HpeWelcomeComponent },
                 { path: '', redirectTo: 'welcome', pathMatch: 'full' },
-                { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
-            ], { useHash: false })
+                { path: '**', redirectTo: 'welcome', pathMatch: 'full' },
+            ], { useHash: false }),
+            search_module_1.SearchModule,
+            product_module_1.ProductModule,
         ],
         declarations: [
             app_component_1.AppComponent,
-            product_list_component_1.ProductListComponent,
-            product_filter_pipe_1.ProductFilterPipe,
-            star_component_1.StarComponent,
-            ib_status_component_1.IbStatus,
-            welcome_component_1.WelcomeComponent,
-            product_detail_component_1.ProductDetailComponent
+            footer_component_1.Footer,
+            hpeWelcome_component_1.HpeWelcomeComponent,
+            nav_component_1.TopNav
         ],
-        providers: [product_guard_service_1.ProductDetailGuard],
-        bootstrap: [app_component_1.AppComponent, ib_status_component_1.IbStatus]
+        bootstrap: [app_component_1.AppComponent, footer_component_1.Footer]
     }),
     __metadata("design:paramtypes", [])
 ], AppModule);

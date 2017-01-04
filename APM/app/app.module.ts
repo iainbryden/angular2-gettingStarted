@@ -1,45 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent }  from './app.component';
-import { WelcomeComponent }  from './home/welcome.component';
+//import { WelcomeComponent }  from './home/welcome.component';
+import { HpeWelcomeComponent }  from './hpeHome/hpeWelcome.component';
+import { TopNav }  from './nav/nav.component';
 
-import { ProductListComponent }  from './products/product-list.component';
-import { ProductDetailComponent }  from './products/product-detail.component';
-import { ProductDetailGuard } from './products/product-guard.service'
-import { ProductFilterPipe }  from './products/product-filter.pipe';
-import { IbStatus }  from './ib/ib.status.component';
-import { StarComponent }  from './shared/star.component';
+import { Footer }  from './footer/footer.component';
+import { ProductModule } from './products/product.module';
+
+import { SearchModule } from './search/search.module';
 
 @NgModule({
   imports: [ 
     BrowserModule, 
-    FormsModule,
     HttpModule ,
     RouterModule.forRoot([
-      {path: 'products', component: ProductListComponent},
-      {path: 'product/:id', 
-        canActivate: [ProductDetailGuard], 
-        component: ProductDetailComponent
-      },
-      {path: 'welcome', component: WelcomeComponent},
+      {path: 'welcome', component: HpeWelcomeComponent},
       {path: '', redirectTo:'welcome', pathMatch:'full'},
-      {path: '**', redirectTo:'welcome', pathMatch:'full'}
-    ], {useHash: false})
+      {path: '**', redirectTo:'welcome', pathMatch:'full'},
+    ], {useHash: false}),
+    SearchModule,  
+    ProductModule,
   ],
   declarations: [ 
       AppComponent, 
-      ProductListComponent,
-      ProductFilterPipe,
-      StarComponent,
-      IbStatus,
-      WelcomeComponent,
-      ProductDetailComponent
+      Footer,
+      HpeWelcomeComponent,
+      TopNav
     ],
-  providers: [ ProductDetailGuard ],
-  bootstrap: [ AppComponent, IbStatus ]
+  bootstrap: [ AppComponent, Footer]
 })
 export class AppModule { }
