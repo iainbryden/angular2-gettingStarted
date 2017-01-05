@@ -13,7 +13,7 @@ export class SearchService {
     constructor(private _http: Http){}
 
     getResults(searchInput: string): Observable<IResult[]> {
-        if (searchInput.length) {
+        //if (searchInput.length) {
             let params = new URLSearchParams();
             params.set('q', searchInput);
 
@@ -21,7 +21,7 @@ export class SearchService {
             .map((response:Response) => <IResult[]>response.json())
             .do(data => console.log('ALL:' + JSON.stringify(data)))
             .catch(this.handleError);
-        }
+        //}
 
         //return new Observable<IResult[]>();
     }

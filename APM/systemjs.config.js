@@ -24,7 +24,10 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
       // other libraries
-      'rxjs': 'npm:rxjs'
+      'rxjs': 'npm:rxjs',
+
+      // jQuery
+      jquery: 'http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js',
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {

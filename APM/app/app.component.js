@@ -12,7 +12,16 @@ var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
         this.pageTitle = 'A Product Management';
+        this.styleHref = 'app/assets/styles/bootstrap-solarized-dark.css';
     }
+    AppComponent.prototype.ngOnInit = function () {
+    };
+    AppComponent.prototype.setCss = function () {
+        alert('');
+    };
+    AppComponent.prototype.getStyle = function () {
+        return this.styleHref;
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([

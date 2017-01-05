@@ -7,10 +7,8 @@ import { AppComponent }  from './app.component';
 //import { WelcomeComponent }  from './home/welcome.component';
 import { HpeWelcomeComponent }  from './hpeHome/hpeWelcome.component';
 import { TopNav }  from './nav/nav.component';
-
 import { Footer }  from './footer/footer.component';
 import { ProductModule } from './products/product.module';
-
 import { SearchModule } from './search/search.module';
 
 @NgModule({
